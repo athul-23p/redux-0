@@ -1,0 +1,42 @@
+#container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 5%;
+}
+#form{
+    width: 400px;
+
+}
+
+.todo-item{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    border: 1px solid rgb(98, 100, 214);
+    border-radius: 7px;
+    margin: 5px;
+    width: 400px;
+    padding: 5px;
+}
+
+.todo-item > p {
+    margin: 2px;
+}
+label{
+    color:grey;
+}
+
+.strike{
+    text-decoration: line-through;
+    color:gray;
+}
+.title{
+    flex-grow: 2;
+    margin-left:5px;
+}
+
+button{
+    margin: 0px 4px;
+}
